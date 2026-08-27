@@ -30,10 +30,10 @@ function seedTasks(): InterventionTask[] {
     return {
       id: `T-${(101 + i).toString()}`,
       zoneId: a.zone.id,
-      title: titles[i],
+      title: titles[i] ?? "Heat mitigation task",
       riskType: "heat" as const,
       priority: (Math.min(4, Math.ceil((i + 1) / 1.6)) || 1) as 1 | 2 | 3 | 4,
-      status: statuses[i],
+      status: statuses[i] ?? "Pending",
       deadline: deadline.toISOString(),
       assignee: "Sameer Kulkarni",
       notes:
