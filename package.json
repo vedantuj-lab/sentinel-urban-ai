@@ -1,0 +1,10 @@
+{
+  "name": "sentinel-urban-ai-root",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "npm.cmd --prefix sentinel-urban-ai-main run build",
+    "preview": "npm.cmd --prefix sentinel-urban-ai-main run preview"
+  }
+}

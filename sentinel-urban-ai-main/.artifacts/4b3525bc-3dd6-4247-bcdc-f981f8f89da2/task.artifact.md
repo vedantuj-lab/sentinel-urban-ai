@@ -1,0 +1,26 @@
+# Task List - UrbanSense AI Enhancements
+
+- `[x]` **Phase 1: Data Infrastructure & Validation**
+  - `[x]` Update `ZoneAssessment` type in `risk.ts`
+  - `[x]` Implement `DataValidationService.ts`
+  - `[x]` Add validation and normalization logic
+- `[x]` **Phase 2: Role-Based Intelligence Integration**
+  - `[x]` Implement `DataValidationSummary.tsx`
+  - `[x]` Update Admin Dashboard (`src/routes/admin/index.tsx`)
+  - `[x]` Update Field Dashboard (`src/routes/field/index.tsx`)
+- `[x]` **Phase 2: Regional Configuration**
+  - `[x]` Implement `RegionService.ts` with city profiles
+  - `[x]` Add `RegionalConfigSelector.tsx` component
+- `[x]` **Phase 3 & 4: Enhanced Risk Prediction & Confidence**
+  - `[x]` Refactor `RiskService.ts` to integrate validation and regions
+  - `[x]` Implement Confidence calculation logic
+  - `[x]` Update `HeatRiskModel.ts` for regional sensitivity
+- `[x]` **Phase 5 & 6: Hotspots & Priority Engine**
+  - `[x]` Implement transparent priority scoring in `PriorityService.ts`
+  - `[x]` Update Map components to show quality and confidence
+- `[x]` **Phase 7: Explainable Recommendations**
+  - `[x]` Implement `ExplainabilityPanel.tsx` (Integrated into Analyst Dashboard)
+  - `[x]` Refine `RecommendationService.ts` (Integrated into RiskService logic)
+- `[x]` **Phase 8: Final Dashboard Integration**
+  - `[x]` Update Analyst Dashboard layout with new indicators
+  - `[x]` Verification and Final Testing

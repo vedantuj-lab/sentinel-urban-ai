@@ -1,0 +1,22 @@
+# Tasks — Master UI/UX Redesign
+
+- [x] **Foundation & System Setup**
+  - [x] Install dependencies (`framer-motion`, `three`, `@react-three/fiber`, `@react-three/drei`)
+  - [x] Update `styles.css` with multi-role color palettes and premium utility classes
+  - [x] Create `ContextualBackground.tsx` for immersive page atmospheres
+- [x] **Immersive Public Experience**
+  - [x] Redesign Landing Page (Cinematic Hero + 3D Miniature City)
+  - [x] Implement Immersive Split-Screen Login (4 visual themes)
+- [x] **Role-Based Environment Upgrades**
+  - [x] Citizen Dashboard (Warm Neighbourhood + 3D Risk Orb)
+  - [x] Analyst Dashboard (Intelligence Lab Canvas + Advanced Charts)
+  - [x] Field Officer Dashboard (Operational Street-view focus)
+  - [x] Admin Dashboard (Command Centre + 3D City Health model)
+- [x] **Intelligence Feature Upgrades**
+  - [x] Risk Map Upgrade (2D/3D Toggle + Animated GIS Boundaries)
+  - [x] Pattern Analysis (Research Canvas + Data Trajectories)
+  - [x] Implementation of "UrbanSense Copilot" (Contextual AI UI)
+- [x] **Quality, Polish & Responsiveness**
+  - [x] Refine micro-interactions (hover, press, scroll reveals)
+  - [x] Performance optimization (Lazy load 3D, fallbacks)
+  - [x] Final responsive audit (390px - 1920px)
